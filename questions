@@ -1,36 +1,113 @@
 what is include<stdio.h>? 
-it is writen when we write the printf
+Means it will include the header file before compiling the code. " include" gives command to include something. "stdio" stands for "standard input output". As it is a header file so .h extension is there. It contains some standard functions related to input and output such as "printf", "scanf"..
 why we need  THIS sign<>btween stdio.h
-standard input out .h what is .h
-alternative of include 
-whty we need to write include only
+
+standard input out .h what is .h 
+standard input/output header WHERE .H
+
+WHAT IS stdio.h
+(<stdio.h>) in the program. This header contains
+information used by the compiler when compiling calls to standard input/output library
+FUNCTIONS
+
 why is this # written not any other sign 
+It is used to distinguish lines which need preprocessing before actual compilation begins. it replaces that line with all the text inside 'stdio.h'. it replaces all instances of ADD with definition of ADD. So # is used by C compiler to know which lines need preprocessing.
+
 int main means 
-why don't we write integer in full why we write int
+ The form you're using: int main() is an old style declaration that indicates main takes an unspecified number of arguments.
+ 
 is #include<stdio.h> is  a function or what
+
 what is program
-what is int
+A computer program is a collection of instructions for performing a specific task that is designed to solve a specific class of problems.
+
+what is int 
+The keyword int to the left of main indicates that main “returns” an
+integer (whole number) value.
+
 why dont't we leave the space between the include and stdio.h
-whats main
-besides main what can we use 
+
+whats main USED FOR 
+/* function main begins program execution */
+
+main is a program
+building block called a function
+
+besides main what can we use
+
 why this ()sign is uesd in between
+
 why cant we write the flower bracket in the begining
  flower bract is mandatory or any another can be used 
- what is print f 
+ 
+ what is print F
+ 
  what is f in print f
+ 
 WHAT IS INT
+
 WHAT IS MAIN 
+In C, the "main" function is treated the same as every function, it has a return type (and in some cases accepts inputs via parameters). The only difference is that the main function is "called" by the operating system when the user runs the program.
+
 WHY THE () IS USED IN FRONT OF THE MAIN
-WHY WE ARE FLOWER BREACKET  USED IN THE BEGINNING OF THE PROGRAM 
+
+WHAT IS  FLOWER BREACKET  
+A left brace, {, begins the body of every function
+
 OTHER THEN THE FLOWER BRACKET WHAT CAN BE USED 
+
 AFTER THE FLOWER BRACKET WHY CANY'T WE WRITE IMMEDIATETLY
-WHAT IS THE PRINT
-WHAT MEANS THE F 
+
+WHY  IS THE PRINT F  
+This message is called a prompt because it tells the user to take a
+specific action.
+printf causes the computer to perform an action. As any program
+executes, it performs a variety of actions and makes decisions.
+
+WHAT MEANS THE F IN PRINTF
+The f in printf stands for formatting. The printf function in C means print formatted output.
+
 WHY WE WRITE THE STATEMENT IN THE CLOSED BRACKET() 
-WHY NOT THE OTHER BRACKET IS USED 
-WHY THE "" IS USED NOT THE'' 
+
 WHAT DOES THIS DO""
-WHY WE WRITE SEMICOLON ; AFTER EVERY STATEMENT
-WHY WE NEED TO WITE RETURN 0
+The characters normally
+print exactly as they appear between the double quotes in the printf statement
+
+WHY WE WRITE SEMICOLON ; AFTER EVERY STATEMEN
+
+WHY WE NEED TO WITE RETURN 0 
+return 0; /* indicate that program ended successfully */
+
 WHY CAN'T WE WRITE THE OTHER DIGIT
+
 WHY WE NEED TO PUT RETURN 0 F WE USE INT MAIN
+
+WHAT IS <stdio.h>?
+<stdio.h> Contains function prototypes for the standard input/output library functions,
+and information used by them.
+
+WHAT IS PROTOTYPE
+In computer programming, a function prototype or function interface is a declaration of a function that specifies the function's name and type signature (arity, parameter types, and return type), but omits the function body. The term is particularly used in C, C++, and PHP.
+
+ WHY IS VOID MAIN USED
+ Actually, 'main' is the parent function of all the functions in C. If we don't need any return value we use return type 'void'. We can also use ' int' as a return type. After all 'main()' is also a function, there is a flexibility of mentioning return type to it by user.
+ 
+ WHAT IS BLOCK
+  This pair of braces and the portion of the program between
+the braces is called a block
+
+WHY IS BLOCK USED
+The block is an important program unit in C.
+
+ The entire line, including printf, its argument within the parentheses
+and the semicolon (;), is called a statement
+
+t. Every statement must end with a semicolon
+(also known as the statement terminator). 
+
+
+that the characters \n were not printed on the screen. The backslash (\) is called an escape
+character. It indicates that printf is supposed to do something out of the ordinary. When
+encountering a backslash in a string, the compiler looks ahead at the next character and
+combines it with the backslash to form an escape sequence. The escape sequence \n means
+newline. 
