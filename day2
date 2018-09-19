@@ -1,0 +1,6 @@
+programmer creats the program edits it and then stores in the disk the processor processes the code this is sent to compiler where
+the source code that is the high level languge which the programmer writes  which is converted to the object code which is nothing but 
+the output of the program in the machine language i.e. the understandable. one 
+then this is stored in the disk. the linker links it with the standard libraries and creat it in the form of executable file 
+ this is stored it in the memory of the cpu then cpu takes the instruction and then checks it out with the memory then 
+it finally executes the file 
