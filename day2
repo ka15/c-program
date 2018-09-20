@@ -3,4 +3,32 @@ the source code that is the high level languge which the programmer writes  whic
 the output of the program in the machine language i.e. the understandable. one 
 then this is stored in the disk. the linker links it with the standard libraries and creat it in the form of executable file 
  this is stored it in the memory of the cpu then cpu takes the instruction and then checks it out with the memory then 
-it finally executes the file 
+it finally executes the file
+
+what is program?
+In computing, a program is a specific set of the ordered functions to perform by the computer
+
+  what is function
+  the named section of programs that perform specific task
+  
+ what is preprocessor
+ Before a C program is compiled in a compiler, source code is processed by a program called preprocessor. commands 
+ used in the preprocessor r preprocessor directive which begin with the the # include
+ 
+ what is the work of compiler
+ compiler read the source code n then convert the source code into the binary form which is also called the machine code or the object code
+ which is understandable language to the code this  is called the compilation process.
+ 
+what are the high level language 
+ the language which has a lot of abstraction in it 
+ 
+ what are the low level language 
+ this are the language which is having less abstraction or no abstraction.
+ 
+ what are linker
+  the linker combines many files into a unified executable program, resolving the symbols as it goes along.
+  
+  what are standard library
+  A standard library in computer programming is the library made available after  implementing a lot of a programming language
+  
+  
