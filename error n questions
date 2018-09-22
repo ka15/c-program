@@ -1,0 +1,13 @@
+i had not mentioned int nefore writing the integer n then it was showing integer not defined so the i looked on to the original copy ,corrrected my mistake
+i had not mentioned the " before n after the () of printf  
+i had not written  return 0 at the last
+ 
+
+questions 
+why we need to mention int before integer 
+ 
+ why we have to put the "" before n after the ()of print f
+ 
+ can't we write both the integer in one print f and declare
+ 
+ is return 0 must to write when we use int maina()
