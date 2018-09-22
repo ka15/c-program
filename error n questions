@@ -1,13 +1,34 @@
-i had not mentioned int nefore writing the integer n then it was showing integer not defined so the i looked on to the original copy ,corrrected my mistake
-i had not mentioned the " before n after the () of printf  
-i had not written  return 0 at the last
- 
 
-questions 
-why we need to mention int before integer 
- 
- why we have to put the "" before n after the ()of print f
- 
- can't we write both the integer in one print f and declare
- 
- is return 0 must to write when we use int maina()
+#include asks to include whatever is given
+execution of the program begins from the main
+int  takes the integer values ony
+printf prints the given 
+scanf takes the input values   from the user
+sum=integer1+integer2 assigns the operation to the program
+
+what does return 0 mean 
+what is the meaning of %d and \n
+\n means it tell the compiler to take the inputalue after a line
+f we donot write this then to our program will run but her it takes the value given by the user in the same line of the printed line
+
+
+ #include<stdio.h>
+  int main() 
+  { 
+  int integer1;
+  int integer2;
+  int sum;
+   
+   printf("enter first integer\n");
+   scanf("%d",&integer1);
+   
+   printf("enter second integer\n");
+   scanf("%d",&integer2);
+   
+   sum=integer1+integer2;
+    
+    printf("sum is %d\n",sum); 
+    
+    return 0;
+    }
+     
